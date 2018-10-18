@@ -90,7 +90,7 @@ create_subtask() {
         if [[ -n $subtask_name ]] && is_JIRA $subtask_name ; then
             git checkout -b subtask/$subtask_name
         else
-            echo "fatal: branch name required"
+            echo "fatal: JIRA branch name required"
         fi
     else
         echo "fatal: creating subtask branch only from story"
@@ -102,7 +102,7 @@ create_task() {
     if [[ -n $task_name ]] && is_JIRA $task_name ; then
         git checkout -b task/$task_name
     else
-        echo "fatal: branch name required"
+        echo "fatal: JIRA branch name required"
     fi
 }
 
@@ -111,7 +111,7 @@ create_bugfix() {
     if [[ -n $bugfix_name ]] && is_JIRA $bugfix_name ; then
         git checkout -b bugfix/$bugfix_name
     else
-        echo "fatal: branch name required"
+        echo "fatal: JIRA branch name required"
     fi
 }
 
@@ -121,7 +121,7 @@ create_hotfix() {
         if [[ -n $hotfix_name ]] && is_JIRA $hotfix_name ; then
             git checkout -b hotfix/$hotfix_name
         else
-            echo "fatal: branch name required"
+            echo "fatal: JIRA branch name required"
         fi
     else
         echo "fatal: creating hotfix branch only from master"
