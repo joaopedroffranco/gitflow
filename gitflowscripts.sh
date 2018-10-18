@@ -1,7 +1,7 @@
-# Livelo Git Flow
+#!/bin/bash
+
 is_JIRA() {
     prefix="$(echo $1 | cut -d '-' -f1)"
-    echo $prefix
     if [[ $prefix = "APP" ]]; then
         return
     fi
@@ -117,8 +117,8 @@ create_bugfix() {
 
 create_hotfix() {
     hotfix_name=$1
-    if current_is_master && is_JIRA $hotfix_name ; then
-        if [[ -n $hotfix_name ]] ; then
+    if current_is_master ; then
+        if [[ -n $hotfix_name ]] && is_JIRA $hotfix_name ; then
             git checkout -b hotfix/$hotfix_name
         else
             echo "fatal: branch name required"
