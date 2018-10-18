@@ -7,4 +7,4 @@ Esse repositorios guarda comandos scripts que auxiliam na manutenção de um git
 
 • Executar `./setup.sh`
 
-• executar `source ~/.bashgitflowscripts`
+• Executar `source ~/.bashgitflowscripts`
