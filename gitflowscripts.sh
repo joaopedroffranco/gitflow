@@ -1,5 +1,5 @@
 # Livelo Git Flow
-s_JIRA() {
+is_JIRA() {
     prefix="$(echo $1 | cut -d '-' -f1)"
     echo $prefix
     if [[ $prefix = "APP" ]]; then
