@@ -18,11 +18,7 @@ Esse repositorios guarda comandos scripts que auxiliam na manutenção de um git
 
 • `gt`: cria uma branch task. Parâmetros: nome da branch no **formato APP-XXXX**
 
-<<<<<<< HEAD
-•  `gf`: cria uma branch feature **sempre da dev**. Parâmetros: nome da branch
-=======
-• `gf`: cria uma branch feature *sempre da dev*. Parâmetros: nome da branch
->>>>>>> 85a8139b1fd302d9eeed93fe48256721e9dc04a8
+• `gf`: cria uma branch feature **sempre da dev**. Parâmetros: nome da branch
 
 • `gs`: cria uma branch story **sempre da feature**. Parâmetros: nome da branch no **formato APP-XXXX**
 
