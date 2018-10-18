@@ -10,14 +10,6 @@ Esse repositorios guarda comandos scripts que auxiliam na manutenção de um git
 • Executar `source ~/.bashgitflowscripts`
 
 ## Comandos
-alias gb='create_bugfix'
-alias gh='create_hotfix'
-alias gr='create_release'
-alias gt='create_task'
-alias gf='create_feature'
-alias gs='create_story'
-alias gst='create_subtask'
-
 • `gb`: cria uma branch bugfix. Parâmetros: nome da branch no *formato APP-XXXX*
 
 • `gh`: cria uma branch hotfix *sempre da master*. Parâmetros: nome da branch no *formato APP-XXXX*.
