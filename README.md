@@ -1,6 +1,6 @@
 # GitFlow
 
-Esse repositorios guarda comandos scripts que auxiliam na manutenção de um gitflow
+Esse repositorio guarda comandos scripts que auxiliam na manutenção de um gitflow
 
 ## Para instalar
 • Fazer clone do projeto
